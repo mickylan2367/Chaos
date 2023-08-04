@@ -12,6 +12,7 @@
 </p>
 
 * theta = 1.6付近から徐々に軌道が大きく発散し枝は回転しながら直線に近づいていきます。
+* 色が美しかったので、色の機能を持つ関数をhanabi(花火)にしました。
 <p align="center">
     <img src="https://github.com/mickylan2367/Chaos/assets/83509964/4372b3d2-f6a0-429f-a09f-363ed87f0328" width="600px">
 </p>
