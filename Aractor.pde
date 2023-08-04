@@ -13,7 +13,7 @@ class Atractor{
   void draw_Atractor(float pt){
     
     /* pt : thetaのこと。関数の外側で更新 */
-    for(float i=0;i<400;i+=0.001){
+    for(float i=0;i<200;i+=0.001){
         // draw
         fill(red, green, blue);
         noStroke();
@@ -34,6 +34,9 @@ class Atractor{
     px = ipx;
     py = ipy;
     pr = sqrt(sq(px) + sq(py));
+    
   }
+  
+  
   
 }
