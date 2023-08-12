@@ -21,9 +21,9 @@ class Atractor{
         
         // fill(255, 255, 255);
         // rect(width/4, -height*3/8, 100, 50);
-        // textSize(22);
-        // fill(0, 0, 0);
-        // text("theta:" + str(pt), width/4, -height*3/8);
+         textSize(22);
+         fill(255, 255, 255);
+         text("theta:" + str(pt), width/4, -height*3/8);
         
         // 更新
         px = px - (px*cos(pt) - py*sin(pt))/pr;

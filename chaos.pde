@@ -2,28 +2,31 @@
 float theta, a, b, mu;
 int red, green, blue, recur=0;
 int flag_r, flag_g, flag_b = 0;
-//Atractor atractor1 = new Atractor(400, 400);
-GumowskiMirror atractor2 = new GumowskiMirror(0.01, 0.01);
+Atractor atractor1 = new Atractor(400, 400);
+//GumowskiMirror atractor2 = new GumowskiMirror(0.01, 0.01);
 
 void setup(){
     //background(255,255,255);
-    background(0, 0, 0);
+    //background(0, 0, 0);
     size(800, 800);
-    theta =1.5;
-    red = green = blue = 0;
+    theta =1.55;
+    red=59;
+    green =175;
+    blue = 117;
    
-    atractor2.set_feather5();
+    //atractor2.set_feather5();
 }
 
 void draw(){
+    background(0, 0, 0);
     translate(400, 400);
     fill(255, 255, 255);
-    circle(0, 0, 4);
+    circle(0, 0, 10);
     
-    //atractor1.draw_Atractor(theta);
-    atractor2.draw_Atractor(a, b, mu, 19.0);
+    atractor1.draw_Atractor(theta);
+    //atractor2.draw_Atractor(a, b, mu, 19.0);
     
-    theta += PI/2000;
+    theta += PI/50;
     
     makigai(0.001);
     hanabi();
