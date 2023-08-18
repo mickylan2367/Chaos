@@ -87,9 +87,11 @@ $$ \theta = 0.4 - \frac{6}{1 + x_n ^2 + y_n ^2} $$
 
 * 正直、うまく写像できているのか、自信ない。2万個ぐらい写像すればマシにはなるかも..???
 
-#### 参考
-[1] <a href="https://note.com/evjunior/n/n46c7ac14a921">Cinderellaでカオスを描く：グモウスキー・ミラーの写像</a>
-[2] <a href ="https://ja.wikipedia.org/wiki/%E6%B1%A0%E7%94%B0%E5%86%99%E5%83%8F">池田写像（wikipedia）</a>
+
+
+## 参考
+1. <a href="https://note.com/evjunior/n/n46c7ac14a921">Cinderellaでカオスを描く：グモウスキー・ミラーの写像</a>
+2. <a href ="https://ja.wikipedia.org/wiki/%E6%B1%A0%E7%94%B0%E5%86%99%E5%83%8F">池田写像（wikipedia）</a>
 
 
 
