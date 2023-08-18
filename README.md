@@ -75,7 +75,7 @@ $$\theta = 0.4 - \frac{6}{1 + x_n ^2 + y_n ^2}$$
     <img src="https://github.com/mickylan2367/Chaos/assets/83509964/bea7f1db-4578-4cad-bdd2-156144668a44" width="500px">
 </p>
 
-* $a = 1.0, b = 0.75$の場合、3か所に収束
+* $a = 1.0, b = 0.75$の場合。収束点が増えた。
 <p align="center">
     <img src="https://github.com/mickylan2367/Chaos/assets/83509964/0eb686d4-cd74-4887-b7d1-d4227c850e52" width="500px">
 </p>
