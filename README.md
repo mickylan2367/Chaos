@@ -64,11 +64,11 @@ $$ F(x) = \mu x + 2(1-\mu)x^2/(1+x^2) $$
 * 非線形光共振器？における光の軌跡モデルとして提案された
 * 平面に描画する場合、以下の二次元非線形写像を用いる
 
-$$x_{n+1} = a + b(x_n cos(\theta) - y_n cos(\theta))$$
+$$ x_{n+1} = a + b(x_n cos(\theta) - y_n cos(\theta)) $$
+ 
+$$ y_{n+1} = b(x_n sin(\theta) + y_n cos(\theta)) $$
 
-$$y_{n+1} = b(x_n sin(\theta) + y_n cos(\theta))$$
-
-$$\theta = 0.4 - \frac{6}{1 + x_n ^2 + y_n ^2}$$
+$$ \theta = 0.4 - \frac{6}{1 + x_n ^2 + y_n ^2} $$
 
 * $a = 1.0, b = 0.5$の場合、中央付近の一か所に集中する。..って、2か所に収束するのでは(;´･ω･)？
 <p align="center">
