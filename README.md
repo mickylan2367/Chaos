@@ -59,6 +59,37 @@ $$ F(x) = \mu x + 2(1-\mu)x^2/(1+x^2) $$
     <img src="https://github.com/mickylan2367/Chaos/assets/83509964/e9cd9611-316d-409c-a8d4-f75b28ebdeef" width="600px">
 </p>
 
+## 池田写像
+* 1979年に池田研介氏によって発見
+* 非線形光共振器？における光の軌跡モデルとして提案された
+* 平面に描画する場合、以下の二次元非線形写像を用いる
+
+$$x_{n+1} = a + b(x_n cos(\theta) - y_n cos(\theta))$$
+
+$$y_{n+1} = b(x_n sin(\theta) + y_n cos(\theta))$$
+
+$$\theta = 0.4 - \frac{6}{1 + x_n ^2 + y_n ^2}$$
+
+* $a = 1.0, b = 0.5$の場合、中央付近の一か所に集中する。
+<p align="center">
+    <img src="https://github.com/mickylan2367/Chaos/assets/83509964/bea7f1db-4578-4cad-bdd2-156144668a44" width="500px">
+</p>
+
+* $a = 1.0, b = 0.75$の場合、3か所に収束
+<p align="center">
+    <img src="https://github.com/mickylan2367/Chaos/assets/83509964/0eb686d4-cd74-4887-b7d1-d4227c850e52" width="500px">
+</p>
+
+* $a = 1.0, b = 0.9$の場合も同様。
+<p align="center">
+    <img src="https://github.com/mickylan2367/Chaos/assets/83509964/8bcaebcf-290a-4bad-bb1a-96a0c0a7ca9d" width="500px">
+</p>
+
+* 正直、うまく写像できているのか、あんまり自信ないので注意。2万個ぐらい写像すればマシにはなるかも..???
 
 #### 参考
 [1] <a href="https://note.com/evjunior/n/n46c7ac14a921">Cinderellaでカオスを描く：グモウスキー・ミラーの写像</a>
+[2] <a href ="https://ja.wikipedia.org/wiki/%E6%B1%A0%E7%94%B0%E5%86%99%E5%83%8F">池田写像（wikipedia）</a>
+
+
+
