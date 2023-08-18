@@ -70,7 +70,7 @@ $$y_{n+1} = b(x_n sin(\theta) + y_n cos(\theta))$$
 
 $$\theta = 0.4 - \frac{6}{1 + x_n ^2 + y_n ^2}$$
 
-* $a = 1.0, b = 0.5$の場合、中央付近の一か所に集中する。
+* $a = 1.0, b = 0.5$の場合、中央付近の一か所に集中する。..って、2か所に収束するのでは(;´･ω･)？
 <p align="center">
     <img src="https://github.com/mickylan2367/Chaos/assets/83509964/bea7f1db-4578-4cad-bdd2-156144668a44" width="500px">
 </p>
@@ -85,7 +85,7 @@ $$\theta = 0.4 - \frac{6}{1 + x_n ^2 + y_n ^2}$$
     <img src="https://github.com/mickylan2367/Chaos/assets/83509964/8bcaebcf-290a-4bad-bb1a-96a0c0a7ca9d" width="500px">
 </p>
 
-* 正直、うまく写像できているのか、あんまり自信ないので注意。2万個ぐらい写像すればマシにはなるかも..???
+* 正直、うまく写像できているのか、自信ない。2万個ぐらい写像すればマシにはなるかも..???
 
 #### 参考
 [1] <a href="https://note.com/evjunior/n/n46c7ac14a921">Cinderellaでカオスを描く：グモウスキー・ミラーの写像</a>
